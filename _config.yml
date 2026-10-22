@@ -21,7 +21,7 @@ title: YEARIM # 블로그의 메인 제목
 tagline: yearim.me.kr # 블로그 부제목으로 표시됩니다.
 
 description: >- # SEO 메타데이터와 Atom 피드에 사용되는 설명
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  YEARIM
 
 # 사이트의 프로토콜과 호스트 이름을 입력하세요.
 # 예: 'https://username.github.io'
@@ -29,16 +29,16 @@ description: >- # SEO 메타데이터와 Atom 피드에 사용되는 설명
 url: ""
 
 github:
-  username: github_yearimm # GitHub 사용자 이름으로 변경하세요.
+  username: yearimm # GitHub 사용자 이름으로 변경하세요.
 
 twitter:
-  username: twitter_username # Twitter 사용자 이름으로 변경하세요.
+  username: THEOR0THY # Twitter 사용자 이름으로 변경하세요.
 
 social:
   # 본인의 이름으로 변경하세요.
   # 게시글의 기본 작성자 및 페이지 하단의 저작권자로 표시됩니다.
   name: YEARIM
-  email: example@domain.com # 본인의 이메일 주소로 변경하세요.
+  email:  # 본인의 이메일 주소로 변경하세요.
   fediverse_handle: # Fediverse 계정을 입력하세요. 예: "@username@domain.com"
   links:
     # 첫 번째 항목은 저작권자 이름에 연결되는 링크입니다.
