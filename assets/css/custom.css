@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'ChosunGulim';
+  src: url('/assets/fonts/ChosunGulim.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body,
+body *,
+button,
+input,
+textarea {
+  font-family: 'ChosunGulim', serif !important;
+}
