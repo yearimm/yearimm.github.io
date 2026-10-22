@@ -29,7 +29,7 @@ description: >- # SEO 메타데이터와 Atom 피드에 사용되는 설명
 url: ""
 
 github:
-  username: github_username # GitHub 사용자 이름으로 변경하세요.
+  username: github_yearimm # GitHub 사용자 이름으로 변경하세요.
 
 twitter:
   username: twitter_username # Twitter 사용자 이름으로 변경하세요.
@@ -37,7 +37,7 @@ twitter:
 social:
   # 본인의 이름으로 변경하세요.
   # 게시글의 기본 작성자 및 페이지 하단의 저작권자로 표시됩니다.
-  name: your_full_name
+  name: YEARIM
   email: example@domain.com # 본인의 이메일 주소로 변경하세요.
   fediverse_handle: # Fediverse 계정을 입력하세요. 예: "@username@domain.com"
   links:
