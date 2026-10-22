@@ -16,9 +16,9 @@ timezone:
 # jekyll-seo-tag 설정 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # 블로그의 메인 제목
+title: YEARIM # 블로그의 메인 제목
 
-tagline: A text-focused Jekyll theme # 블로그 부제목으로 표시됩니다.
+tagline: yearim.me.kr # 블로그 부제목으로 표시됩니다.
 
 description: >- # SEO 메타데이터와 Atom 피드에 사용되는 설명
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
