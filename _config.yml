@@ -42,8 +42,8 @@ social:
   fediverse_handle: # Fediverse 계정을 입력하세요. 예: "@username@domain.com"
   links:
     # 첫 번째 항목은 저작권자 이름에 연결되는 링크입니다.
-    - https://twitter.com/username # 본인의 Twitter 프로필 주소로 변경하세요.
-    - https://github.com/username # 본인의 GitHub 프로필 주소로 변경하세요.
+    - https://twitter.com # 본인의 Twitter 프로필 주소로 변경하세요.
+    - https://github.com # 본인의 GitHub 프로필 주소로 변경하세요.
     # 다른 소셜 링크를 추가하려면 아래 주석을 해제하세요.
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -171,7 +171,7 @@ pwa:
       # - "/example"  # '<SITE_URL>/example/*'에 해당하는 주소는 캐시하지 않습니다.
 
 # 한 페이지에 표시할 게시글 수
-paginate: 10
+paginate: 1
 
 # 사이트의 기본 경로
 baseurl: ""
