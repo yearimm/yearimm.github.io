@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'ChosunGulim';
+  src: url('/assets/fonts/ChosunGulim.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 블로그 전체 글꼴 */
+body,
+button,
+input,
+textarea,
+select,
+h1, h2, h3, h4, h5, h6,
+p, a, li, span,
+.post-content,
+.post-title,
+.site-title {
+  font-family: 'ChosunGulim', serif !important;
+}
+
+/* 아이콘 폰트는 유지 */
+i[class*="fa-"],
+.fa,
+.fas,
+.far,
+.fab {
+  font-family: "Font Awesome 6 Free",
+               "Font Awesome 6 Brands" !important;
+}
