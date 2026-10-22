@@ -1,14 +1,16 @@
 
-/* 사이드바 프로필 이미지 */
-#sidebar #avatar {
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
+/* 프로필 이미지 영역 크기 */
+#sidebar .profile-wrapper #avatar {
+  width: 150px !important;
+  height: 150px !important;
+  overflow: hidden !important;
 }
 
-#sidebar #avatar img {
-  width: 100%;
-  height: 100%;
+/* 프로필 이미지 전체 표시 */
+#sidebar .profile-wrapper #avatar img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
   object-fit: contain !important;
-  object-position: center;
+  object-position: center center !important;
 }
