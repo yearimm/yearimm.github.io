@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "ChosunGu";
-  src: url("../fonts/ChosunGu.ttf") format("truetype");
+  src: url("assets/fonts/ChosunGu.TTF") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
