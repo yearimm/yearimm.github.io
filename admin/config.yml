@@ -47,10 +47,10 @@ collections:
           name: tag
           widget: string
 
-      - label: 대표 이미지
-        name: image
-        widget: image
-        required: false
+      # - label: 대표 이미지
+      #   name: image
+      #   widget: image
+      #   required: false
 
       - label: 본문
         name: body
