@@ -1,0 +1,57 @@
+
+backend:
+  name: github
+  repo: yearimm/yearimm.github.io
+  branch: main
+  auth_methods:
+    - token
+
+media_folder: assets/img/uploads
+public_folder: /assets/img/uploads
+
+collections:
+  - name: posts
+    label: 게시글 관리
+    label_singular: 게시글
+    folder: _posts
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+
+    fields:
+      - label: 제목
+        name: title
+        widget: string
+
+      - label: 작성일
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD HH:mm:ss Z"
+
+      - label: 카테고리
+        name: categories
+        widget: list
+        required: false
+        field:
+          label: 카테고리명
+          name: category
+          widget: string
+
+      - label: 태그
+        name: tags
+        widget: list
+        required: false
+        field:
+          label: 태그명
+          name: tag
+          widget: string
+
+      - label: 대표 이미지
+        name: image
+        widget: image
+        required: false
+
+      - label: 본문
+        name: body
+        widget: markdown
