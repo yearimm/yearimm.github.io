@@ -55,3 +55,9 @@ collections:
       - label: 본문
         name: body
         widget: markdown
+
+      - label: 공유용 부제목
+        name: description
+        widget: text
+        required: false
+        hint: "링크를 공유할 때 표시되는 설명"
