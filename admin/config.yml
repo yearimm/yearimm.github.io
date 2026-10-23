@@ -17,7 +17,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}{{month}}{{day}}{{hour}}{{minute}}"
 
     fields:
       - label: 제목
