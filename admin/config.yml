@@ -61,3 +61,8 @@ collections:
         widget: text
         required: false
         hint: "링크를 공유할 때 표시되는 설명"
+
+      - label: 고유 주소
+        name: permalink
+        widget: string
+        required: false
