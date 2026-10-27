@@ -171,7 +171,7 @@ pwa:
       # - "/example"  # '<SITE_URL>/example/*'에 해당하는 주소는 캐시하지 않습니다.
 
 # 한 페이지에 표시할 게시글 수
-paginate: 1
+paginate: 10
 
 # 사이트의 기본 경로
 baseurl: ""
